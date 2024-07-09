@@ -6,7 +6,7 @@ echo'
     box-shadow: 10px 10px 30px rgb(5, 601, 455) !important;">
   <div class="container-fluid">';
   if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] ==true){
-    echo '<a class="navbar-brand " href="home.php">Admin</a>';
+    echo '<a class="navbar-brand " href="home.php">SMA</a>';
   }
     
     echo '<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
